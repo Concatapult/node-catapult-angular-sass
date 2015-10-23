@@ -1,0 +1,11 @@
+/* remember to set all global css and variables before importing */
+
+$black: #000;
+
+body {
+  background-color: $black;
+}
+
+/* import partials */
+@import 'partial1';
+@import 'partial2';

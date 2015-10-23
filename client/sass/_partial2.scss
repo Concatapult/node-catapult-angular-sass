@@ -1,0 +1,17 @@
+/* This is a partial, you can rename this or create your own */
+
+.jumbotron{
+  background-color: #303430;
+  margin: 0 auto;
+  width: 80%;
+  padding: 30px;
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 2px;
+
+  /* nesting html elements */
+  h1{
+    color: #2380E2;
+    font-family: sans-serif;
+  }
+}

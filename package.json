@@ -1,0 +1,33 @@
+{
+  "name": "Node-Catapult-Angular-Sass",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "description": "A rapid project starter for Node, Express, Angular and Sass.",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "es6-object-assign": "^1.0.1",
+    "express": "^4.13.1",
+    "node-sass-endpoint": "^0.2.1",
+    "nodemon": "^1.3.7"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "nodemon": "^1.3.7",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  },
+  "author": "Gilbert Garza, Dan Corman and Farah Maredia",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server/index.js --ignore client/ --ignore node_modules/",
+    "test": "./test/run.sh"
+  },
+  "bugs": {
+    "url": "https://github.com/node-catapult/node-catapult-angular-sass/issues"
+  },
+  "homepage": "https://github.com/node-catapult/node-catapult-angular-sass/"
+}
